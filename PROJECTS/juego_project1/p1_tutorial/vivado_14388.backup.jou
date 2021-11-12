@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Aug 29 12:41:27 2021
+# Process ID: 14388
+# Current directory: C:/Users/chand/Desktop/EE214/p1_tutorial
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6236 C:\Users\chand\Desktop\EE214\p1_tutorial\p1_tutorial.xpr
+# Log file: C:/Users/chand/Desktop/EE214/p1_tutorial/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/p1_tutorial\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/p1_tutorial/p1_tutorial.xpr
+update_compile_order -fileset sources_1

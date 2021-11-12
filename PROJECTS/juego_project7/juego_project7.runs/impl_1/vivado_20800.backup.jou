@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Oct 26 15:14:55 2021
+# Process ID: 20800
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.runs/impl_1
+# Command line: vivado.exe -log piso_16.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source piso_16.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.runs/impl_1/piso_16.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source piso_16.tcl -notrace

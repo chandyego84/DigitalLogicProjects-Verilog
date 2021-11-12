@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep 23 11:50:49 2021
+# Process ID: 1180
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project3/project3CombinationalCircuits/project3CombinationalCircuits.runs/synth_1
+# Command line: vivado.exe -log tempIndicator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tempIndicator.tcl
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project3/project3CombinationalCircuits/project3CombinationalCircuits.runs/synth_1/tempIndicator.vds
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project3/project3CombinationalCircuits/project3CombinationalCircuits.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tempIndicator.tcl -notrace

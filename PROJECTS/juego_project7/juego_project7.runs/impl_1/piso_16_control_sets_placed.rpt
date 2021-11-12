@@ -1,0 +1,127 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Oct 26 15:20:05 2021
+| Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file piso_16_control_sets_placed.rpt
+| Design       : piso_16
+| Device       : xc7z007s
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    49 |
+|    Minimum number of control sets                        |    49 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   336 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    49 |
+| >= 0 to < 4        |    48 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              24 |            6 |
+| No           | No                    | Yes                    |              32 |           32 |
+| No           | Yes                   | No                     |              16 |           16 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+---------------+-------------------------+------------------+----------------+--------------+
+|       Clock Signal       | Enable Signal |     Set/Reset Signal    | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------+---------------+-------------------------+------------------+----------------+--------------+
+|  led_reg[3]_LDC_i_1_n_0  |               | led_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[0]_LDC_i_1_n_0  |               | led_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[10]_LDC_i_1_n_0 |               | led_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[2]_LDC_i_1_n_0  |               | led_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[11]_LDC_i_1_n_0 |               | led_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[15]_LDC_i_1_n_0 |               | led_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[14]_LDC_i_1_n_0 |               | led_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[4]_LDC_i_1_n_0  |               | led_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[6]_LDC_i_1_n_0  |               | led_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[7]_LDC_i_1_n_0  |               | led_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[12]_LDC_i_1_n_0 |               | led_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[13]_LDC_i_1_n_0 |               | led_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  led_reg[8]_LDC_i_1_n_0  |               | led_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[5]_LDC_i_1_n_0  |               | led_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[1]_LDC_i_1_n_0  |               | led_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[0]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[10]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[2]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[11]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[15]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[3]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[4]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[6]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[7]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[12]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[13]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[14]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[5]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[1]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[9]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[8]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  p_2_in_BUFG             |               | led_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  led_reg[9]_LDC_i_1_n_0  |               | led_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG           |               |                         |                6 |             24 |         4.00 |
++--------------------------+---------------+-------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1636665058">
+  <File Type="ROUTE-PWR" Name="multiplierTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="multiplierTop.tcl"/>
+  <File Type="BITSTR-MMI" Name="multiplierTop.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="multiplierTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="multiplierTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="multiplierTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="multiplierTop_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="multiplierTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="multiplierTop_opt.dcp"/>
+  <File Type="OPT-DRC" Name="multiplierTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="multiplierTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="multiplierTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="multiplierTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="multiplierTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="multiplierTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="multiplierTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="multiplierTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="multiplierTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="multiplierTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="multiplierTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="multiplierTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="multiplierTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="multiplierTop.bin"/>
+  <File Type="PLACE-TIMING" Name="multiplierTop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="multiplierTop_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="multiplierTop.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="multiplierTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="multiplierTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="multiplierTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="multiplierTop.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="multiplierTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="multiplierTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="multiplierTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="multiplierTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="multiplierTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="multiplierTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="multiplierTop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="multiplierTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="multiplierTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="multiplierTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="multiplierTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="multiplierTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="multiplierTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="multiplierTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="multiplierTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="multiplierTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="multiplierTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="multiplierTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="multiplierTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="multiplierTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="multiplierTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="multiplierTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="multiplierTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="multiplierTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="multiplierTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="multiplierTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="multiplierTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="multiplierTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="multiplierTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="multiplierTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="multiplierTop.nky"/>
+  <File Type="BITSTR-BMM" Name="multiplierTop_bd.bmm"/>
+  <File Type="PDI-FILE" Name="multiplierTop.pdi"/>
+  <File Type="RCFI_FILE" Name="multiplierTop.rcfi"/>
+  <File Type="CFI_FILE" Name="multiplierTop.cfi"/>
+  <File Type="RNPI_FILE" Name="multiplierTop.rnpi"/>
+  <File Type="NPI_FILE" Name="multiplierTop.npi"/>
+  <File Type="RBD_FILE" Name="multiplierTop.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="multiplierTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="multiplierTop.sysdef"/>
+  <File Type="BG-BGN" Name="multiplierTop.bgn"/>
+  <File Type="BG-DRC" Name="multiplierTop.drc"/>
+  <File Type="RDI-RDI" Name="multiplierTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/anod_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bin2bcd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkdiv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiplier.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segdecoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiplierTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cmparator.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="multiplierTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../BlackboardRevD.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

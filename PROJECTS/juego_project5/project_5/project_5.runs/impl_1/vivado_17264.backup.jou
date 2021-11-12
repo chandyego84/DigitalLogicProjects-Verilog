@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Oct  6 18:57:17 2021
+# Process ID: 17264
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project5/project_5/project_5.runs/impl_1
+# Command line: vivado.exe -log mux_demux_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux_demux_wrapper.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project5/project_5/project_5.runs/impl_1/mux_demux_wrapper.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project5/project_5/project_5.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mux_demux_wrapper.tcl -notrace

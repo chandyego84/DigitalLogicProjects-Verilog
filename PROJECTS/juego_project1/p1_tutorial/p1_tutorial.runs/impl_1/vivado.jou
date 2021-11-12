@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Aug 29 12:12:13 2021
+# Process ID: 11604
+# Current directory: C:/Users/chand/Desktop/EE214/p1_tutorial/p1_tutorial.runs/impl_1
+# Command line: vivado.exe -log project1_demo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source project1_demo.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/p1_tutorial/p1_tutorial.runs/impl_1/project1_demo.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/p1_tutorial/p1_tutorial.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source project1_demo.tcl -notrace

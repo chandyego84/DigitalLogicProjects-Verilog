@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.1/project_9.1.srcs/sources_1/new/bitslice.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitslice
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.1/project_9.1.srcs/sources_1/new/cla_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.1/project_9.1.srcs/sim_1/new/cla_adderTb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla_adderTb

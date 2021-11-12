@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 31 15:43:16 2021
+# Process ID: 6116
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9432 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project6\juego_project6.xpr
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project6/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project6/juego_project6.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/chand/Desktop/EE214/PROJECTS/juego_project6/juego_project6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:10 . Memory (MB): peak = 1257.020 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 15:43:54 2021...

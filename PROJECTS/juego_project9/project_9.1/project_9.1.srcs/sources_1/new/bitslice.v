@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Chandler Juego
+// Create Date: 11/02/2021 07:38:08 PM
+// Module Name: bitslice
+//////////////////////////////////////////////////////////////////////////////////
+module bitslice(
+    input A, B,
+    input CIN,
+    output G, P, S  
+);
+
+assign G = A & B;
+assign P = A ^ B; 
+assign S = P ^ CIN;
+
+endmodule

@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/d_latchtb.v,1634850334,verilog,,,,d_latchtb,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/nand_basictb.v,1634795911,verilog,,,,nand_basictb,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/nor_basictb.v,1634800719,verilog,,,,nor_basictb,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sources_1/new/d_latch.v,1635283420,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/d_latchtb.v,,d_latch,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sources_1/new/nand_basic.v,1634793210,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/nand_basictb.v,,nand_basic,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sources_1/new/nor_basic.v,1634803185,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project7/juego_project7.srcs/sim_1/new/nor_basictb.v,,nor_basic,,,,,,,,

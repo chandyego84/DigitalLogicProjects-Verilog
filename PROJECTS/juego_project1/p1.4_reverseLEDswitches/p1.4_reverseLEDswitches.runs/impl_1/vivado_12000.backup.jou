@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep  9 12:02:04 2021
+# Process ID: 12000
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project1/p1.4_reverseLEDswitches/p1.4_reverseLEDswitches.runs/impl_1
+# Command line: vivado.exe -log reverseLEDsw.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source reverseLEDsw.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project1/p1.4_reverseLEDswitches/p1.4_reverseLEDswitches.runs/impl_1/reverseLEDsw.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project1/p1.4_reverseLEDswitches/p1.4_reverseLEDswitches.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source reverseLEDsw.tcl -notrace

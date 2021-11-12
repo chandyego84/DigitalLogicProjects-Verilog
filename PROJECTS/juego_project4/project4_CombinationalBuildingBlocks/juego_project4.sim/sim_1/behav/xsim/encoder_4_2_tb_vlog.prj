@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../juego_project4.srcs/sources_1/new/mux_8_1.v" \
+"../../../../juego_project4.srcs/sources_1/new/mux_4_1_3bitBus.v" \
+"../../../../juego_project4.srcs/sources_1/new/decoder_2_4.v" \
+"../../../../juego_project4.srcs/sources_1/new/encoder_4_2.v" \
+"../../../../juego_project4.srcs/sources_1/new/mux_8_1_8bitBus.v" \
+"../../../../juego_project4.srcs/sim_1/new/mux_8_1_8bitBus_tb.v" \
+"../../../../juego_project4.srcs/sim_1/new/encoder_4_2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

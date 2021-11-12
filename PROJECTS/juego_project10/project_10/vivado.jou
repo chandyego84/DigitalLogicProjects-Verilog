@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Nov 11 12:56:47 2021
+# Process ID: 4140
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5756 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project10\project_10\project_10.xpr
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10/project_10.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

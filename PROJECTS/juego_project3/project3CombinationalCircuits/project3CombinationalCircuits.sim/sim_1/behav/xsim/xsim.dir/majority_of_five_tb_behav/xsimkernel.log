@@ -1,0 +1,7 @@
+Running: xsim.dir/majority_of_five_tb_behav/xsimk.exe -simmode gui -wdb majority_of_five_tb_behav.wdb -simrunnum 0 -socket 55483
+Design successfully loaded
+Design Loading Memory Usage: 6632 KB (Peak: 6632 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7272 KB (Peak: 7272 KB)
+Simulation CPU Usage: 30 ms

@@ -2,10 +2,10 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct  3 19:10:30 2021
-# Process ID: 2224
+# Start of session at: Sun Nov 21 21:13:33 2021
+# Process ID: 9832
 # Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8112 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project4\project4_CombinationalBuildingBlocks\juego_project4.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7020 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project4\project4_CombinationalBuildingBlocks\juego_project4.xpr
 # Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks/vivado.log
 # Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks\vivado.jou
 #-----------------------------------------------------------
@@ -13,7 +13,12 @@ start_gui
 open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks/juego_project4.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks'
-INFO: [Common 17-41] Interrupt caught. Command should exit soon.
-INFO: [Common 17-344] 'open_project' was cancelled
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/chand/Desktop/EE214/PROJECTS/juego_project4/project4_CombinationalBuildingBlocks/juego_project4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:11 . Memory (MB): peak = 1282.902 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting Vivado at Sun Oct  3 19:10:54 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 21 21:26:53 2021...

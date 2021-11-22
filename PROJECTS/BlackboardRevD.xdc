@@ -1,7 +1,7 @@
 ## Master .xdc for the Blackboard
 ##Clock
 set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L13P_T2_MRCC_35 Schematic=SYSCLK
-#set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn];
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn[0]];
 #set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets start_IBUF[1]];
 create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 4} [get_ports { clk }];
 
@@ -36,10 +36,10 @@ set_property -dict { PACKAGE_PIN R14   IOSTANDARD LVCMOS33 } [get_ports { sw[4] 
 set_property -dict { PACKAGE_PIN P14   IOSTANDARD LVCMOS33 } [get_ports { sw[5] }]; #IO_L6P_T0_34 Schematic=SW5
 set_property -dict { PACKAGE_PIN L15   IOSTANDARD LVCMOS33 } [get_ports { sw[6] }]; #IO_L22N_T3_AD7N_35 Schematic=SW6
 set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { sw[7] }]; #IO_L23N_T3_35 Schematic=SW7
-#set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { sw[8] }]; #IO_L10P_T1_34 Sch=VGA_R4_CON
-#set_property -dict { PACKAGE_PIN T12   IOSTANDARD LVCMOS33 } [get_ports { sw[9] }]; #IO_L10N_T1_34 Sch=VGA_R5_CON
-#set_property -dict { PACKAGE_PIN T11   IOSTANDARD LVCMOS33 } [get_ports { sw[10] }]; #IO_L18P_T2_34 Sch=VGA_R6_CON
-#set_property -dict { PACKAGE_PIN T14   IOSTANDARD LVCMOS33 } [get_ports { sw[11] }]; #IO_L18N_T2_AD13N_35 Sch=VGA_R7_CON
+set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { sw[8] }]; #IO_L10P_T1_34 Sch=VGA_R4_CON
+set_property -dict { PACKAGE_PIN T12   IOSTANDARD LVCMOS33 } [get_ports { sw[9] }]; #IO_L10N_T1_34 Sch=VGA_R5_CON
+set_property -dict { PACKAGE_PIN T11   IOSTANDARD LVCMOS33 } [get_ports { sw[10] }]; #IO_L18P_T2_34 Sch=VGA_R6_CON
+set_property -dict { PACKAGE_PIN T14   IOSTANDARD LVCMOS33 } [get_ports { sw[11] }]; #IO_L18N_T2_AD13N_35 Sch=VGA_R7_CON
 
 #Push Buttons
 set_property -dict { PACKAGE_PIN W14   IOSTANDARD LVCMOS33 } [get_ports { btn[0] }]; #IO_L8P_T1_34 Schematic=BTN0

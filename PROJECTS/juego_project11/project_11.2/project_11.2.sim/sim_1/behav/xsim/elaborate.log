@@ -1,0 +1,14 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/chand/Desktop/EE214/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto c702c7f32bea4285912cb20581c81a08 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot watchTB_behav xil_defaultlib.watchTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dec_counter
+Compiling module xil_defaultlib.watchTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot watchTB_behav

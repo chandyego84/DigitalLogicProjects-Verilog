@@ -5,9 +5,10 @@
 // Module Name: ALU
 //////////////////////////////////////////////////////////////////////////////////
 module ALU(
-    input [7:0] A, B,
+// 9 bits to indicate signed operands
+    input [8:0] A, B,
     input [2:0] ctrl,
-    output reg [8:0] result
+    output reg [9:0] result
 );
 
 always @ (ctrl) begin

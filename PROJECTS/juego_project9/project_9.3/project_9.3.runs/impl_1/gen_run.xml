@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1636665058">
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1637107996">
   <File Type="ROUTE-PWR" Name="multiplierTop_power_routed.rpt"/>
   <File Type="PA-TCL" Name="multiplierTop.tcl"/>
   <File Type="BITSTR-MMI" Name="multiplierTop.mmi"/>
@@ -98,6 +98,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/cmparator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/counter.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -142,14 +149,6 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/multiplierTop.v">
       <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/cmparator.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

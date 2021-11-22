@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 14:54:31 2021
+# Process ID: 2336
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11456 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project8\juego_project8.xpr
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/bitstreams/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/BCD_ctr4TB.v w ]
+add_files -fileset sim_1 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/BCD_ctr4TB.v
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source clkdiv_asyncTb.tcl
+add_bp {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/clkdiv_asynccntr.v} 35
+remove_bps -file {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/clkdiv_asynccntr.v} -line 35
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BCD_ctr4TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim

@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date             : Tue Nov  2 16:19:35 2021
+| Date             : Sun Nov 21 15:50:03 2021
 | Host             : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command          : report_power -file BCDctr_4_power_routed.rpt -pb BCDctr_4_power_summary_routed.pb -rpx BCDctr_4_power_routed.rpx
 | Design           : BCDctr_4
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.110        |
+| Total On-Chip Power (W)  | 0.109        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.017        |
+| Dynamic (W)              | 0.016        |
 | Device Static (W)        | 0.093        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 83.7         |
@@ -54,14 +54,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
 | Slice Logic    |    <0.001 |      123 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       50 |     14400 |            0.35 |
+|   LUT as Logic |    <0.001 |       49 |     14400 |            0.34 |
 |   Register     |    <0.001 |       45 |     28800 |            0.16 |
 |   CARRY4       |    <0.001 |        4 |      4400 |            0.09 |
 |   Others       |     0.000 |        9 |       --- |             --- |
-| Signals        |    <0.001 |       76 |       --- |             --- |
-| I/O            |     0.016 |       13 |       100 |           13.00 |
+| Signals        |    <0.001 |       77 |       --- |             --- |
+| I/O            |     0.015 |       14 |       100 |           14.00 |
 | Static Power   |     0.093 |          |           |                 |
-| Total          |     0.110 |          |           |                 |
+| Total          |     0.109 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -147,7 +147,7 @@ Table of Contents
 +----------+-----------+
 | Name     | Power (W) |
 +----------+-----------+
-| BCDctr_4 |     0.017 |
+| BCDctr_4 |     0.016 |
 +----------+-----------+
 
 

@@ -124,7 +124,6 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 2
-  set_param xicom.use_bs_reader 1
   open_checkpoint BCDctr_4_routed.dcp
   set_property webtalk.parent_dir C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.cache/wt [current_project]
 set_property TOP BCDctr_4 [current_fileset]

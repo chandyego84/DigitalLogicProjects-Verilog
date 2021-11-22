@@ -70,6 +70,9 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 2
+set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z007sclg400-1
 
@@ -88,6 +91,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/anod_decoder.v
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/bin2bcd.v
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/clkdiv.v
+  C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/cmparator.v
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/counter.v
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/multiplier.v
   C:/Users/chand/Desktop/EE214/PROJECTS/juego_project9/project_9.3/project_9.3.srcs/sources_1/new/mux.v

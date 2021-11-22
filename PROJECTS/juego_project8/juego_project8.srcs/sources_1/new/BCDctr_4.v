@@ -3,9 +3,18 @@
 // Engineer: Chandler Juego
 // Create Date: 11/01/2021 08:05:57 PM
 // Module Name: BCDctr_4
+// UPDATED FOR CHALLENGE (4 digit counter controller):
+//Change the 4-digit counter clock to a 1Hz clock, 
+//and make the count value loadable from the slide switches. 
+//Connect SW0 to counter enable, so the counter only counts when SW0 is a 1 
+//(so, SW0 selects between "run mode" when SW0 = "1", and "load mode" when SW0 = "0")
+//. Then, connect SW1 and SW2 to a decoder that will select which counter digit to load, 
+//and use SW4-SW7 to set a count value into the digits. Verify your circuit works.
 //////////////////////////////////////////////////////////////////////////////////
 module BCDctr_4(
     input clk, rst,
+    input [7:0] sw,
+    input [3:0] btn,
     output [3:0] seg_an,
     output [6:0] seg_cat
 );
@@ -16,11 +25,11 @@ wire [3:0] tc;
 wire [1:0] cout;
 wire [3:0] muxOut;
 
-clkdiv div(.clk(clk), .rst(rst), .terminalcount(49999), .clk_div(clkdivDown));
-bcdcounter bcd_one(.clk(clkdivDown), .rst(rst), .bcd_digit(bcd0), .en(1), .tc(tc[0]));
-bcdcounter bcd_two(.clk(clkdivDown), .rst(rst), .bcd_digit(bcd1), .en(tc[0]), .tc(tc[1]));
-bcdcounter bcd_three(.clk(clkdivDown), .rst(rst), .bcd_digit(bcd2), .en(tc[1]&tc[0]), .tc(tc[2]));
-bcdcounter bcd_four(.clk(clkdivDown), .rst(rst), .bcd_digit(bcd3), .en(tc[2]&tc[1]&tc[0]), .tc(tc[3]));
+clkdiv div(.clk(clk), .rst(btn[0]), .terminalcount(100000000-1), .clk_div(clkdivDown));
+bcdcounter bcd_one(.clk(clkdivDown), .rst(btn[0]), .bcd_digit(bcd0), .en(sw[0]), .tc(tc[0]));
+bcdcounter bcd_two(.clk(clkdivDown), .rst(btn[0]), .bcd_digit(bcd1), .en(tc[0]), .tc(tc[1]));
+bcdcounter bcd_three(.clk(clkdivDown), .rst(btn[0]), .bcd_digit(bcd2), .en(tc[1]&tc[0]), .tc(tc[2]));
+bcdcounter bcd_four(.clk(clkdivDown), .rst(btn[0]), .bcd_digit(bcd3), .en(tc[2]&tc[1]&tc[0]), .tc(tc[3]));
 counter_2bit(.clk(clkdivDown), .counterout(cout));
 busMux_4_1 busMux(.I0(bcd0), .I1(bcd1), .I2(bcd2), .I3(bcd3), .sel(cout), .Y(muxOut));
 decoder_2_4 decoder(.IN(cout), .anods(seg_an));

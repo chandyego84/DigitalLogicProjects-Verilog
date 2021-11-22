@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../juego_project8.srcs/sources_1/new/BCDctr_4.v" \
+"../../../../juego_project8.srcs/sources_1/new/bcdcounter.v" \
+"../../../../juego_project8.srcs/sources_1/new/busMux_4_1.v" \
+"../../../../juego_project8.srcs/sources_1/new/clkdiv.v" \
+"../../../../juego_project8.srcs/sources_1/new/counter_2bit.v" \
+"../../../../juego_project8.srcs/sources_1/new/decoder_2_4.v" \
+"../../../../juego_project8.srcs/sources_1/new/sevseg_decoder.v" \
+"../../../../juego_project8.srcs/sim_1/new/BCD_ctr4TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

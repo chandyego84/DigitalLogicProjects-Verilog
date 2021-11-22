@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Tue Nov  2 16:19:34 2021
+| Date         : Sun Nov 21 15:50:03 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_methodology -file BCDctr_4_methodology_drc_routed.rpt -pb BCDctr_4_methodology_drc_routed.pb -rpx BCDctr_4_methodology_drc_routed.rpx
 | Design       : BCDctr_4
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 29
+             Violations found: 32
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 21         |
-| TIMING-18 | Warning          | Missing input or output delay | 1          |
+| TIMING-18 | Warning          | Missing input or output delay | 4          |
 | TIMING-20 | Warning          | Non-clocked latch             | 7          |
 +-----------+------------------+-------------------------------+------------+
 
@@ -131,17 +131,32 @@ Related violations: <none>
 
 TIMING-17#20 Critical Warning
 Non-clocked sequential cell  
-The clock pin nolabel_line24/counterout_reg[0]/C is not reached by a timing clock
+The clock pin nolabel_line33/counterout_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#21 Critical Warning
 Non-clocked sequential cell  
-The clock pin nolabel_line24/counterout_reg[1]/C is not reached by a timing clock
+The clock pin nolabel_line33/counterout_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-18#1 Warning
 Missing input or output delay  
-An input delay is missing on rst relative to clock(s) sys_clk_pin
+An input delay is missing on btn[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btn[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btn[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btn[3] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-20#1 Warning

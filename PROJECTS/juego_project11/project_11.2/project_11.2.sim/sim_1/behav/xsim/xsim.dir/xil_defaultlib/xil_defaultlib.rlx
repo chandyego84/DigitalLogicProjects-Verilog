@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sim_1/new/watchTB.v,1637512758,verilog,,,,watchTB,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/anodecoder.v,1637261089,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/clkdiv.v,,anodecoder,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/clkdiv.v,1637270196,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v,,clkdiv,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v,1637513576,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sim_1/new/watchTB.v,,dec_counter,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/disp_clk.v,1637256120,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/muxBus_4_1.v,,disp_clk,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/muxBus_4_1.v,1637255844,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/segdecoder.v,,muxBus_4_1,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/segdecoder.v,1637259537,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/watchTop.v,,segdecoder,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/watchTop.v,1637351243,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sim_1/new/watchTB.v,,watchTop,,,,,,,,

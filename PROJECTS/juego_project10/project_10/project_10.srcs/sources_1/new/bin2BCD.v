@@ -5,7 +5,7 @@
 // Module Name: bin2BCD
 //////////////////////////////////////////////////////////////////////////////////
 module bin2BCD(
-   input [8:0] bin,
+   input [9:0] bin,
    output reg [15:0] bcd
 );
 

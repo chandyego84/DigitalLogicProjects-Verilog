@@ -3,5 +3,13 @@
 Jun 10 2021
 20:04:57
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/BCD_ctr4TB.v,1637538222,verilog,,,,BCD_ctr4TB,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/clkdiv_asyncTb.v,1635712127,verilog,,,,clkdiv_asyncTb,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/BCDctr_4.v,1637537507,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/bcdcounter.v,,BCDctr_4,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/bcdcounter.v,1637537550,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/busMux_4_1.v,,bcdcounter,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/busMux_4_1.v,1635871065,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/clkdiv.v,,busMux_4_1,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/clkdiv.v,1635717819,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/counter_2bit.v,,clkdiv,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/clkdiv_asynccntr.v,1635710709,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/clkdiv_asyncTb.v,,clkdiv_asynccntr,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/counter_2bit.v,1635872035,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/decoder_2_4.v,,counter_2bit,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/decoder_2_4.v,1635871686,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/sevseg_decoder.v,,decoder_2_4,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sources_1/new/sevseg_decoder.v,1635977520,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project8/juego_project8.srcs/sim_1/new/BCD_ctr4TB.v,,sevseg_decoder,,,,,,,,

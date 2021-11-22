@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1636665439">
+<GenRun Id="synth_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1637262437">
   <File Type="PA-TCL" Name="ALUtop.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="ALUtop_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ALUtop_reports.tcl"/>
@@ -67,16 +67,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/ALUtop.v">
+    <File Path="$PSRCDIR/sources_1/new/status.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/status.v">
+    <File Path="$PSRCDIR/sources_1/new/ALUtop.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

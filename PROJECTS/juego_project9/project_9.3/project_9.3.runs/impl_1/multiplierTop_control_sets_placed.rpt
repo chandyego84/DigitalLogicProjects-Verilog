@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Thu Nov 11 13:12:52 2021
+| Date         : Tue Nov 16 16:15:03 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file multiplierTop_control_sets_placed.rpt
 | Design       : multiplierTop
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |     4 |
-|    Minimum number of control sets                        |     4 |
+| Total control sets                                       |     5 |
+|    Minimum number of control sets                        |     5 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
 | Unused register locations in slices containing registers |    13 |
@@ -39,7 +39,7 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |     4 |
+| Total control sets |     5 |
 | >= 0 to < 4        |     1 |
 | >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     0 |
@@ -47,7 +47,7 @@ Table of Contents
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     1 |
+| >= 16              |     2 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -61,7 +61,7 @@ Table of Contents
 | No           | No                    | No                     |               0 |            0 |
 | No           | No                    | Yes                    |              19 |            6 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | No                     |              32 |            9 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -76,6 +76,7 @@ Table of Contents
 |  clkiv/CLK     |               | rst_IBUF         |                1 |              2 |         2.00 |
 |  clk_IBUF_BUFG | en_IBUF[1]    |                  |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG | en_IBUF[0]    |                  |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | en_IBUF[2]    |                  |                5 |             16 |         3.20 |
 |  clk_IBUF_BUFG |               | rst_IBUF         |                5 |             17 |         3.40 |
 +----------------+---------------+------------------+------------------+----------------+--------------+
 

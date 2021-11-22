@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date             : Thu Nov 11 13:19:18 2021
+| Date             : Thu Nov 18 11:09:26 2021
 | Host             : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command          : report_power -file ALUtop_power_routed.rpt -pb ALUtop_power_summary_routed.pb -rpx ALUtop_power_routed.rpx
 | Design           : ALUtop
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.120        |
+| Total On-Chip Power (W)  | 0.123        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.027        |
+| Dynamic (W)              | 0.029        |
 | Device Static (W)        | 0.093        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 83.6         |
@@ -53,16 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      164 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       82 |     14400 |            0.57 |
+| Slice Logic    |    <0.001 |      187 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       93 |     14400 |            0.65 |
 |   CARRY4       |    <0.001 |       10 |      4400 |            0.23 |
-|   Register     |    <0.001 |       44 |     28800 |            0.15 |
-|   F7/F8 Muxes  |    <0.001 |        1 |     17600 |           <0.01 |
-|   Others       |     0.000 |        9 |       --- |             --- |
-| Signals        |    <0.001 |      147 |       --- |             --- |
-| I/O            |     0.024 |       27 |       100 |           27.00 |
+|   Register     |    <0.001 |       50 |     28800 |            0.17 |
+|   Others       |     0.000 |       12 |       --- |             --- |
+| Signals        |    <0.001 |      169 |       --- |             --- |
+| I/O            |     0.027 |       32 |       100 |           32.00 |
 | Static Power   |     0.093 |          |           |                 |
-| Total          |     0.120 |          |           |                 |
+| Total          |     0.123 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.006 |       0.002 |      0.004 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.006 |       0.003 |      0.004 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.006 |       0.001 |      0.005 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.008 |       0.007 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.009 |       0.008 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -102,7 +101,7 @@ Table of Contents
 | User Input Data             | Confidence | Details                                                | Action                                                                                                             |
 +-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Design implementation state | High       | Design is routed                                       |                                                                                                                    |
-| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
 | I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
 | Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
 | Device models               | High       | Device models are Production                           |                                                                                                                    |
@@ -148,7 +147,7 @@ Table of Contents
 +--------+-----------+
 | Name   | Power (W) |
 +--------+-----------+
-| ALUtop |     0.027 |
+| ALUtop |     0.029 |
 +--------+-----------+
 
 

@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Thu Nov 11 13:18:53 2021
+| Date         : Thu Nov 18 11:08:59 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_drc -file ALUtop_drc_opted.rpt -pb ALUtop_drc_opted.pb -rpx ALUtop_drc_opted.rpx
 | Design       : ALUtop

@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+S1 to S1 works
+S2 to S2 works
+S3 to S3 works
+$stop called at time : 95 ns : File "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.1/project_11.1.srcs/sim_1/new/serial_adderTB.v" Line 80

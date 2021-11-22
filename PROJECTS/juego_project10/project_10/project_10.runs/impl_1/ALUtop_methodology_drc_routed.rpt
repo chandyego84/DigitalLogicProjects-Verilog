@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Thu Nov 11 13:19:18 2021
+| Date         : Thu Nov 18 11:09:26 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_methodology -file ALUtop_methodology_drc_routed.rpt -pb ALUtop_methodology_drc_routed.pb -rpx ALUtop_methodology_drc_routed.rpx
 | Design       : ALUtop
@@ -23,25 +23,31 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 25
+             Violations found: 35
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 2          |
-| TIMING-18 | Warning          | Missing input or output delay | 14         |
-| TIMING-20 | Warning          | Non-clocked latch             | 9          |
+| LUTAR-1   | Warning          | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning          | Missing input or output delay | 19         |
+| TIMING-20 | Warning          | Non-clocked latch             | 13         |
 +-----------+------------------+-------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
 TIMING-17#1 Critical Warning
 Non-clocked sequential cell  
-The clock pin nolabel_line30/ctrout_reg[0]/C is not reached by a timing clock
+The clock pin nolabel_line31/ctrout_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#2 Critical Warning
 Non-clocked sequential cell  
-The clock pin nolabel_line30/ctrout_reg[1]/C is not reached by a timing clock
+The clock pin nolabel_line31/ctrout_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell load/state_reg[3]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) ALUstate/state_reg[3]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
 Related violations: <none>
 
 TIMING-18#1 Warning
@@ -71,47 +77,72 @@ Related violations: <none>
 
 TIMING-18#6 Warning
 Missing input or output delay  
-An input delay is missing on sw[1] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[11] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#7 Warning
 Missing input or output delay  
-An input delay is missing on sw[2] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[1] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#8 Warning
 Missing input or output delay  
-An input delay is missing on sw[3] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[2] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#9 Warning
 Missing input or output delay  
-An input delay is missing on sw[4] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[3] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#10 Warning
 Missing input or output delay  
-An input delay is missing on sw[5] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[4] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#11 Warning
 Missing input or output delay  
-An input delay is missing on sw[6] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[5] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#12 Warning
 Missing input or output delay  
-An input delay is missing on sw[7] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[6] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#13 Warning
 Missing input or output delay  
-An input delay is missing on sw[8] relative to clock(s) sys_clk_pin
+An input delay is missing on sw[7] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-18#14 Warning
 Missing input or output delay  
+An input delay is missing on sw[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
 An input delay is missing on sw[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to clock(s) sys_clk_pin
 Related violations: <none>
 
 TIMING-20#1 Warning
@@ -157,6 +188,26 @@ Related violations: <none>
 TIMING-20#9 Warning
 Non-clocked latch  
 The latch ALU/result_reg[8] cannot be properly analyzed as its control pin ALU/result_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch ALU/result_reg[9] cannot be properly analyzed as its control pin ALU/result_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch ALUstate/state_reg[1] cannot be properly analyzed as its control pin ALUstate/state_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch ALUstate/state_reg[2] cannot be properly analyzed as its control pin ALUstate/state_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch ALUstate/state_reg[3] cannot be properly analyzed as its control pin ALUstate/state_reg[3]/G is not reached by a timing clock
 Related violations: <none>
 
 

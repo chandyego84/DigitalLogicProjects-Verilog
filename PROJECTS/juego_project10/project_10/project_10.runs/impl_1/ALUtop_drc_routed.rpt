@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Thu Nov 11 13:19:17 2021
+| Date         : Thu Nov 18 11:09:25 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_drc -file ALUtop_drc_routed.rpt -pb ALUtop_drc_routed.pb -rpx ALUtop_drc_routed.rpx
 | Design       : ALUtop
@@ -24,11 +24,11 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 2
+             Violations found: 3
 +----------+----------+--------------------+------------+
 | Rule     | Severity | Description        | Violations |
 +----------+----------+--------------------+------------+
-| PDRC-153 | Warning  | Gated clock check  | 1          |
+| PDRC-153 | Warning  | Gated clock check  | 2          |
 | ZPS7-1   | Warning  | PS7 block required | 1          |
 +----------+----------+--------------------+------------+
 
@@ -36,7 +36,12 @@ Table of Contents
 -----------------
 PDRC-153#1 Warning
 Gated clock check  
-Net ALU/result_reg[8]_i_2_n_0 is a gated clock net sourced by a combinational pin ALU/result_reg[8]_i_2/O, cell ALU/result_reg[8]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net ALU/result_reg[9]_i_2_n_0 is a gated clock net sourced by a combinational pin ALU/result_reg[9]_i_2/O, cell ALU/result_reg[9]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net load/E[0] is a gated clock net sourced by a combinational pin load/state_reg[3]_i_1/O, cell load/state_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 ZPS7-1#1 Warning

@@ -5,10 +5,10 @@
 // Module Name: register_16
 //////////////////////////////////////////////////////////////////////////////////
 module register_16(
-    input [16:0] D,
+    input [15:0] D,
     input en,
     input clk, rst,
-    output reg [16:0] loadout
+    output reg [15:0] loadout
 );
 
 always @ (posedge(clk)) begin

@@ -5,21 +5,16 @@
 // Module Name: status 
 //////////////////////////////////////////////////////////////////////////////////
 module status(
-    input [8:0] ALUin,
-    output [2:0] state,
-    output reg [15:0] bcd
+    input [8:0] A, B,
+    input [9:0] ALUin,
+    output reg [3:0] state
 );
 
-integer i;
-	
-always @(ALUin) begin
-    bcd=0;		 	
-    for (i=0;i<14;i=i+1) begin					//Iterate once for each bit in input number
-        if (bcd[3:0] >= 5) bcd[3:0] = bcd[3:0] + 3;		//If any BCD digit is >= 5, add three
-	if (bcd[7:4] >= 5) bcd[7:4] = bcd[7:4] + 3;
-	if (bcd[11:8] >= 5) bcd[11:8] = bcd[11:8] + 3;
-	if (bcd[15:12] >= 5) bcd[15:12] = bcd[15:12] + 3;
-	bcd = {bcd[14:0],ALUin[13-i]};				//Shift one bit, and shift in proper bit from input 
-    end
-end    
+always @ (ALUin) begin
+    if (ALUin == 9'd0) state[0] <= 1; // zero
+    if (ALUin[8] == 1'b1) state[1] <= 1; // negative 
+    if (ALUin[9] == 1'b1) state[2] <= 1; // carry out MSB
+    if (A[8] == 1'b0 & B[8] == 1'b0 & ALUin[8] == 1'b1) state[3] <= 1; // overflow
+    if (A[8] == 1'b1 & B[8] == 1'b1 & ALUin[8] == 1'b0) state[3] <= 1; //overflow
+end
 endmodule

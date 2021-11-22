@@ -13,8 +13,8 @@ module adder(
 assign sum = A + B;
 
 always @ (sum) begin
-    if (sum[7] == 1) led[0] <= 1;   // negative number 
-    if (sum[8] == 1) led <= 1;  // overflow
+    if (sum[7] == 1) led[0] <= 1'b1;   // negative number 
+    if (sum[8] == 1) led[1] <= 1'b1;  // overflow
 end
 
 

@@ -1,0 +1,308 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Nov 21 08:55:33 2021
+# Process ID: 12244
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/synth_1
+# Command line: vivado.exe -log watchTop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source watchTop.tcl
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/synth_1/watchTop.vds
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source watchTop.tcl -notrace
+Command: synth_design -top watchTop -part xc7z007sclg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13732
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'watchTop' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/watchTop.v:7]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/clkdiv.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv' (1#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/clkdiv.v:7]
+INFO: [Synth 8-6157] synthesizing module 'dec_counter' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:7]
+WARNING: [Synth 8-6090] variable 'hunds' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:67]
+WARNING: [Synth 8-6090] variable 'thousands' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'dec_counter' (2#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:7]
+INFO: [Synth 8-6157] synthesizing module 'disp_clk' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/disp_clk.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'disp_clk' (3#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/disp_clk.v:8]
+INFO: [Synth 8-6157] synthesizing module 'muxBus_4_1' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/muxBus_4_1.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'muxBus_4_1' (4#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/muxBus_4_1.v:7]
+INFO: [Synth 8-6157] synthesizing module 'segdecoder' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/segdecoder.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'segdecoder' (5#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/segdecoder.v:7]
+WARNING: [Synth 8-689] width (8) of port connection 'segs' does not match port width (7) of module 'segdecoder' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/watchTop.v:24]
+INFO: [Synth 8-6157] synthesizing module 'anodecoder' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/anodecoder.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'anodecoder' (6#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/anodecoder.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'watchTop' (7#1) [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/watchTop.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1282.562 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc]
+WARNING: [Vivado 12-507] No nets matched 'start_IBUF[1]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/watchTop_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/watchTop_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'PS_reg' in module 'dec_counter'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:27]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:27]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                            00001 |                              000
+                      S2 |                            01000 |                              010
+                      S1 |                            10000 |                              001
+                      S3 |                            00100 |                              011
+                      S4 |                            00010 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'PS_reg' using encoding 'one-hot' in module 'dec_counter'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.srcs/sources_1/new/dec_counter.v:27]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 8     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  15 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 14    
+	   4 Input    4 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 18    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     2|
+|4     |LUT2   |     6|
+|5     |LUT3   |     3|
+|6     |LUT4   |    25|
+|7     |LUT5   |    14|
+|8     |LUT6   |    20|
+|9     |FDCE   |    16|
+|10    |FDRE   |    24|
+|11    |LD     |     5|
+|12    |IBUF   |     6|
+|13    |OBUF   |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1282.562 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1282.562 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1282.562 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1284.922 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  LD => LDCE: 5 instances
+
+Synth Design complete, checksum: 5f7a4fad
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 23 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1284.922 ; gain = 2.359
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/synth_1/watchTop.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file watchTop_utilization_synth.rpt -pb watchTop_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 21 08:56:17 2021...

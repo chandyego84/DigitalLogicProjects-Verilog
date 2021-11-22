@@ -6,8 +6,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 module addrSubtrctr(
     input [7:0] sw,
-    input [1:0] en,
+    input [2:0] en,
     input clk, rst, sub,
+    output [1:0] led,
     output [3:0] seg_an,
     output [6:0] seg_cat
 );
@@ -20,9 +21,9 @@ wire clkout;
 wire cout;
 wire [3:0] muxConnect;
 
-register loads(.D(sw), .en(en), .rst(rst), .clk(clk), .op1(wOp1), .op2(wOp2));
-inverter inverter(.sub(sub), .bits(wOp2), .inverted(invOp2));
-adder adder(.A(wOp1), .B(invOp2), .led(led), .sum(wSum));
+register loads(.D(sw), .en(en[1:0]), .rst(rst), .clk(clk), .op1(wOp1), .op2(wOp2));
+inverter inverter(.sub(en[2]), .bits(wOp2), .inverted(invOp2));
+adder adder(.A(wOp1), .B(invOp2), .led(led[1:0]), .sum(wSum));
 bin2bcd BCD(.bin(wSum[7:0]), .bcd(newBCD));
 clkdiv newClk(.clk(clk), .rst(rst), .terminalcount(49999), .clk_div(clkout));
 counter counter(.clk(clkout), .counterout(cout));

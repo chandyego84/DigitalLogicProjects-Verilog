@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov 16 14:48:10 2021
+# Process ID: 10604
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10/project_10.runs/impl_1
+# Command line: vivado.exe -log ALUtop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ALUtop.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10/project_10.runs/impl_1/ALUtop.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project10/project_10/project_10.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ALUtop.tcl -notrace

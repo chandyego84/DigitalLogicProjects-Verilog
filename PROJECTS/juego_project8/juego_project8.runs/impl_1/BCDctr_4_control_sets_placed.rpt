@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Tue Nov  2 16:19:13 2021
+| Date         : Sun Nov 21 15:49:41 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file BCDctr_4_control_sets_placed.rpt
 | Design       : BCDctr_4
@@ -74,13 +74,13 @@ Table of Contents
 |     Clock Signal     |           Enable Signal           | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------------+-----------------------------------+------------------+------------------+----------------+--------------+
 |  div/CLK             |                                   |                  |                1 |              2 |         2.00 |
-|  div/CLK             |                                   | rst_IBUF         |                2 |              3 |         1.50 |
-|  div/CLK             | bcd_four/bcd_digit[3]_i_1_n_0     | rst_IBUF         |                1 |              4 |         4.00 |
-|  div/CLK             | bcd_one/bcd_digit[3]_i_1__2_n_0   | rst_IBUF         |                1 |              4 |         4.00 |
-|  div/CLK             | bcd_three/bcd_digit[3]_i_1__0_n_0 | rst_IBUF         |                2 |              4 |         2.00 |
-|  div/CLK             | bcd_two/bcd_digit[3]_i_1__1_n_0   | rst_IBUF         |                1 |              4 |         4.00 |
-|  nolabel_line24/E[0] |                                   |                  |                2 |              7 |         3.50 |
-|  clk_IBUF_BUFG       |                                   | rst_IBUF         |                5 |             17 |         3.40 |
+|  div/CLK             |                                   | btn_IBUF[0]      |                2 |              3 |         1.50 |
+|  div/CLK             | bcd_four/bcd_digit[3]_i_1__2_n_0  | btn_IBUF[0]      |                2 |              4 |         2.00 |
+|  div/CLK             | bcd_three/bcd_digit[3]_i_1__1_n_0 | btn_IBUF[0]      |                1 |              4 |         4.00 |
+|  div/CLK             | bcd_one/bcd_digit[3]_i_1_n_0      | btn_IBUF[0]      |                1 |              4 |         4.00 |
+|  div/CLK             | bcd_two/bcd_digit[3]_i_1__0_n_0   | btn_IBUF[0]      |                1 |              4 |         4.00 |
+|  nolabel_line33/E[0] |                                   |                  |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG       |                                   | btn_IBUF[0]      |                5 |             17 |         3.40 |
 +----------------------+-----------------------------------+------------------+------------------+----------------+--------------+
 
 

@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Tue Nov  2 16:19:33 2021
+| Date         : Sun Nov 21 15:50:01 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_drc -file BCDctr_4_drc_routed.rpt -pb BCDctr_4_drc_routed.pb -rpx BCDctr_4_drc_routed.rpx
 | Design       : BCDctr_4
@@ -36,7 +36,7 @@ Table of Contents
 -----------------
 PDRC-153#1 Warning
 Gated clock check  
-Net nolabel_line24/E[0] is a gated clock net sourced by a combinational pin nolabel_line24/segs_reg[6]_i_2/O, cell nolabel_line24/segs_reg[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net nolabel_line33/E[0] is a gated clock net sourced by a combinational pin nolabel_line33/segs_reg[6]_i_2/O, cell nolabel_line33/segs_reg[6]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 ZPS7-1#1 Warning

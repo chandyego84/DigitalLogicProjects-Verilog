@@ -5,10 +5,10 @@
 // Module Name: register
 //////////////////////////////////////////////////////////////////////////////////
 module register(
-    input [7:0] D,
+    input [8:0] D,
     input [1:0] en,
     input clk,
-    output reg [7:0] op1, op2
+    output reg [8:0] op1, op2
 );
 
 always @ (posedge(clk)) begin

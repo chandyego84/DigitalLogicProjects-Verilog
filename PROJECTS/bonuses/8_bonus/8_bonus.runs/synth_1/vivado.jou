@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec  2 10:13:30 2021
+# Process ID: 7688
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/synth_1
+# Command line: vivado.exe -log BCDctr_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BCDctr_4.tcl
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/synth_1/BCDctr_4.vds
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BCDctr_4.tcl -notrace

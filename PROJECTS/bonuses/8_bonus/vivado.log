@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec  2 09:51:44 2021
+# Process ID: 6796
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14620 C:\Users\chand\Desktop\EE214\PROJECTS\bonuses\8_bonus\8_bonus.xpr
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/chand/Desktop/EE214/PROJECTS/8_bonus' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.gen/sources_1', nor could it be found using path 'C:/Users/chand/Desktop/EE214/PROJECTS/8_bonus/8_bonus.gen/sources_1'.
+WARNING: [Project 1-312] File not found as 'C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/BlackboardRevD.xdc'; using path 'C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.598 ; gain = 0.000

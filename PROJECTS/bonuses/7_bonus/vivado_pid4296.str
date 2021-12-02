@@ -4,11 +4,11 @@ Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
 SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
 IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
 
-Process ID (PID): 3084
+Process ID (PID): 4296
 License: Customer
 Mode: GUI Mode
 
-Current time: 	Thu Dec 02 08:12:03 PST 2021
+Current time: 	Thu Dec 02 09:40:04 PST 2021
 Time zone: 	Pacific Standard Time (America/Los_Angeles)
 
 OS: Windows 10
@@ -31,7 +31,7 @@ Java maximum memory (-Xmx):	 3 GB
 
 User name: 	chand
 User home directory: C:/Users/chand
-User working directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2
+User working directory: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus
 User country: 	US
 User language: 	en
 User locale: 	en_US
@@ -45,9 +45,9 @@ Vivado preferences file: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/viv
 Vivado preferences directory: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/
 Vivado layouts directory: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
 PlanAhead jar file: 	C:/Users/chand/Desktop/EE214/Vivado/2021.1/lib/classes/planAhead.jar
-Vivado log file: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.log
-Vivado journal file: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.jou
-Engine tmp dir: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/.Xil/Vivado-3084-DESKTOP-U5LPIJT
+Vivado log file: 	C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus/vivado.log
+Vivado journal file: 	C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus/vivado.jou
+Engine tmp dir: 	C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus/.Xil/Vivado-4296-DESKTOP-U5LPIJT
 
 Xilinx Environment Variables
 ----------------------------
@@ -63,7 +63,7 @@ XILINX_VIVADO_HLS: C:/Users/chand/Desktop/EE214/Vivado/2021.1
 
 GUI allocated memory:	256 MB
 GUI max memory:		3,072 MB
-Engine allocated memory: 1,224 MB
+Engine allocated memory: 1,287 MB
 
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 
@@ -71,18 +71,23 @@ Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 
 // TclEventType: START_GUI
 // Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1298 ms.
 // TclEventType: PROJECT_OPEN_DIALOG
-// [GUI Memory]: 114 MB (+117484kb) [00:00:25]
-// [Engine Memory]: 1,224 MB (+1131776kb) [00:00:25]
+// [GUI Memory]: 128 MB (+131658kb) [00:00:15]
+// [Engine Memory]: 1,287 MB (+1198410kb) [00:00:15]
 // bz (cs):  Open Project : addNotify
-// Opening Vivado Project: C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr. Version: Vivado v2021.1 
+// Opening Vivado Project: C:\Users\chand\Desktop\EE214\PROJECTS\bonuses\7_bonus\7_bonus.xpr. Version: Vivado v2021.1 
 // TclEventType: DEBUG_PROBE_SET_CHANGE
 // TclEventType: FLOW_ADDED
-// HMemoryUtils.trashcanNow. Engine heap size: 1,224 MB. GUI used memory: 73 MB. Current time: 12/2/21, 8:12:03 AM PST
-// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.xpr 
+// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus/7_bonus.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 72 MB. Current time: 12/2/21, 9:40:06 AM PST
 // TclEventType: MSGMGR_MOVEMSG
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
 // TclEventType: RUN_CURRENT
 // TclEventType: PROJECT_DASHBOARD_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
@@ -98,10 +103,11 @@ Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
 // TclEventType: PROJECT_NEW
-// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.xpr 
+// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/7_bonus/7_bonus.xpr 
 // Tcl Message: Scanning sources... Finished scanning sources 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
 // TclEventType: PROJECT_NEW
-// [GUI Memory]: 131 MB (+10990kb) [00:00:42]
-// WARNING: HEventQueue.dispatchEvent() is taking  14619 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  10127 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:21 . Memory (MB): peak = 1282.582 ; gain = 0.000 

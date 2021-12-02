@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1638462903">
+  <File Type="ROUTE-PWR" Name="MinMuxTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="MinMuxTop.tcl"/>
+  <File Type="BITSTR-MMI" Name="MinMuxTop.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MinMuxTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="MinMuxTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="MinMuxTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="MinMuxTop_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="MinMuxTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MinMuxTop_opt.dcp"/>
+  <File Type="OPT-DRC" Name="MinMuxTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MinMuxTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="MinMuxTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="MinMuxTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="MinMuxTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="MinMuxTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="MinMuxTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MinMuxTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="MinMuxTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MinMuxTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="MinMuxTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MinMuxTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MinMuxTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="MinMuxTop.bin"/>
+  <File Type="PLACE-TIMING" Name="MinMuxTop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MinMuxTop_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="MinMuxTop.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MinMuxTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MinMuxTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="MinMuxTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="MinMuxTop.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="MinMuxTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MinMuxTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="MinMuxTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MinMuxTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MinMuxTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MinMuxTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="MinMuxTop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MinMuxTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MinMuxTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MinMuxTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="MinMuxTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MinMuxTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MinMuxTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MinMuxTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="MinMuxTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MinMuxTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="MinMuxTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="MinMuxTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MinMuxTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MinMuxTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MinMuxTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MinMuxTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MinMuxTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MinMuxTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MinMuxTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MinMuxTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MinMuxTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="MinMuxTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MinMuxTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MinMuxTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="MinMuxTop.nky"/>
+  <File Type="BITSTR-BMM" Name="MinMuxTop_bd.bmm"/>
+  <File Type="PDI-FILE" Name="MinMuxTop.pdi"/>
+  <File Type="RCFI_FILE" Name="MinMuxTop.rcfi"/>
+  <File Type="CFI_FILE" Name="MinMuxTop.cfi"/>
+  <File Type="RNPI_FILE" Name="MinMuxTop.rnpi"/>
+  <File Type="NPI_FILE" Name="MinMuxTop.npi"/>
+  <File Type="RBD_FILE" Name="MinMuxTop.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MinMuxTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="MinMuxTop.sysdef"/>
+  <File Type="BG-BGN" Name="MinMuxTop.bgn"/>
+  <File Type="BG-DRC" Name="MinMuxTop.drc"/>
+  <File Type="RDI-RDI" Name="MinMuxTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/minterm_mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MinMuxTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MinMuxTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../BlackboardRevD.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

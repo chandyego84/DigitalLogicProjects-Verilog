@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec  2 08:56:02 2021
+# Process ID: 10980
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.1/project_12.1.runs/impl_1
+# Command line: vivado.exe -log debouncer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source debouncer.tcl -notrace
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.1/project_12.1.runs/impl_1/debouncer.vdi
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.1/project_12.1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source debouncer.tcl -notrace

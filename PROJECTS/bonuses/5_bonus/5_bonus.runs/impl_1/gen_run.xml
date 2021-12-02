@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z007sclg400-1" LaunchTime="1638463306">
+  <File Type="ROUTE-PWR" Name="twoDigSevSegTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="twoDigSevSegTop.tcl"/>
+  <File Type="BITSTR-MMI" Name="twoDigSevSegTop.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="twoDigSevSegTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="twoDigSevSegTop_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="twoDigSevSegTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="twoDigSevSegTop_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="twoDigSevSegTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="twoDigSevSegTop_opt.dcp"/>
+  <File Type="OPT-DRC" Name="twoDigSevSegTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="twoDigSevSegTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="twoDigSevSegTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="twoDigSevSegTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="twoDigSevSegTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="twoDigSevSegTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="twoDigSevSegTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="twoDigSevSegTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="twoDigSevSegTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="twoDigSevSegTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="twoDigSevSegTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="twoDigSevSegTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="twoDigSevSegTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="twoDigSevSegTop.bin"/>
+  <File Type="PLACE-TIMING" Name="twoDigSevSegTop_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="twoDigSevSegTop_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="twoDigSevSegTop.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="twoDigSevSegTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="twoDigSevSegTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="twoDigSevSegTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="twoDigSevSegTop.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="twoDigSevSegTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="twoDigSevSegTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="twoDigSevSegTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="twoDigSevSegTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="twoDigSevSegTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="twoDigSevSegTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="twoDigSevSegTop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="twoDigSevSegTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="twoDigSevSegTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="twoDigSevSegTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="twoDigSevSegTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="twoDigSevSegTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="twoDigSevSegTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="twoDigSevSegTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="twoDigSevSegTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="twoDigSevSegTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="twoDigSevSegTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="twoDigSevSegTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="twoDigSevSegTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="twoDigSevSegTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="twoDigSevSegTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="twoDigSevSegTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="twoDigSevSegTop_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="twoDigSevSegTop_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="twoDigSevSegTop_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="twoDigSevSegTop_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="twoDigSevSegTop_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="twoDigSevSegTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="twoDigSevSegTop_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="twoDigSevSegTop_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="twoDigSevSegTop.nky"/>
+  <File Type="BITSTR-BMM" Name="twoDigSevSegTop_bd.bmm"/>
+  <File Type="PDI-FILE" Name="twoDigSevSegTop.pdi"/>
+  <File Type="RCFI_FILE" Name="twoDigSevSegTop.rcfi"/>
+  <File Type="CFI_FILE" Name="twoDigSevSegTop.cfi"/>
+  <File Type="RNPI_FILE" Name="twoDigSevSegTop.rnpi"/>
+  <File Type="NPI_FILE" Name="twoDigSevSegTop.npi"/>
+  <File Type="RBD_FILE" Name="twoDigSevSegTop.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="twoDigSevSegTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="twoDigSevSegTop.sysdef"/>
+  <File Type="BG-BGN" Name="twoDigSevSegTop.bgn"/>
+  <File Type="BG-DRC" Name="twoDigSevSegTop.drc"/>
+  <File Type="RDI-RDI" Name="twoDigSevSegTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/twoDigSevenSegCtr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/twoDigSevSegTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="twoDigSevSegTop"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../BlackboardRevD.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

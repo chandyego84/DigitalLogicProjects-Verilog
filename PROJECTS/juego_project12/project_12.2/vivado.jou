@@ -2,12 +2,34 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Thu Dec  2 08:11:19 2021
-# Process ID: 3084
+# Start of session at: Thu Dec  2 16:26:50 2021
+# Process ID: 1540
 # Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7024 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7140 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr
 # Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.log
 # Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.xpr
+file mkdir C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v] -no_script -reset -force -quiet
+remove_files  C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v
+file delete -force C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/anodecoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/anodecoder.v
+update_compile_order -fileset sources_1

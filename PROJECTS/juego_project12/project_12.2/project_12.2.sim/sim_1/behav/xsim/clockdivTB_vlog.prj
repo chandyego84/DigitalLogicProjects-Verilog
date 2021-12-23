@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_12.2.srcs/sources_1/new/anodecoder.v" \
+"../../../../project_12.2.srcs/sources_1/new/clkdiv.v" \
+"../../../../project_12.2.srcs/sources_1/new/ctr_clk.v" \
+"../../../../project_12.2.srcs/sources_1/new/muxBus_4_1.v" \
+"../../../../project_12.2.srcs/sources_1/new/segdecoder.v" \
+"../../../../project_12.2.srcs/sources_1/new/sevsegcontroller.v" \
+"../../../../project_12.2.srcs/sources_1/new/stateMachine.v" \
+"../../../../project_12.2.srcs/sources_1/new/RTMtop.v" \
+"../../../../project_12.2.srcs/sim_1/new/clockdivTB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

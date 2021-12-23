@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Dec  6 19:30:45 2021
+# Process ID: 13232
+# Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15336 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project11\project_11.2\project_11.2.xpr
+# Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/vivado.log
+# Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/impl_1/watchTop.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/impl_1/watchTop.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]

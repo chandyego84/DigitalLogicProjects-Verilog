@@ -2,10 +2,10 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Thu Dec  2 10:21:32 2021
-# Process ID: 1424
+# Start of session at: Thu Dec  9 20:28:32 2021
+# Process ID: 10820
 # Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9004 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project11\project_11.2\project_11.2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12676 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project11\project_11.2\project_11.2.xpr
 # Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/vivado.log
 # Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2\vivado.jou
 #-----------------------------------------------------------
@@ -17,20 +17,20 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
-open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 1257.438 ; gain = 0.000
-update_compile_order -fileset sources_1
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:12 . Memory (MB): peak = 1256.820 ; gain = 0.000
 open_hw_manager
+update_compile_order -fileset sources_1
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
 INFO: [Labtools 27-3414] Connected to existing cs_server.
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887100000585A
-open_hw_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2842.766 ; gain = 1585.328
+open_hw_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2830.559 ; gain = 1573.738
 set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/impl_1/watchTop.bit} [get_hw_devices xc7z007s_1]
 current_hw_device [get_hw_devices xc7z007s_1]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
-INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
 set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
 set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/juego_project11/project_11.2/project_11.2.runs/impl_1/watchTop.bit} [get_hw_devices xc7z007s_1]
@@ -38,3 +38,5 @@ program_hw_devices [get_hw_devices xc7z007s_1]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
 INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  9 20:30:29 2021...

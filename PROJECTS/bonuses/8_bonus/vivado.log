@@ -20,3 +20,79 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
 open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1283.598 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/BlackboardRevD.xdc
+file mkdir C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/bcdcounter.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/bcdcounter.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/busMux_4_1.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/busMux_4_1.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/clkdiv.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/clkdiv.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/counter_2bit.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/counter_2bit.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/decoder_2_4.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/decoder_2_4.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/load_decoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/load_decoder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/sevseg_decoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/sevseg_decoder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/BCDctr_4.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/BCDctr_4.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+[Thu Dec  2 10:11:17 2021] Launched synth_1...
+Run output will be captured here: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/synth_1/runme.log
+[Thu Dec  2 10:11:17 2021] Launched impl_1...
+Run output will be captured here: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Thu Dec  2 10:13:27 2021] Launched synth_1...
+Run output will be captured here: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/synth_1/runme.log
+[Thu Dec  2 10:13:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Dec  2 10:15:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887100000585A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2871.180 ; gain = 1587.582
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/887100000585A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/887100000585A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  2 11:19:44 2021...

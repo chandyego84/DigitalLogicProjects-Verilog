@@ -1,0 +1,598 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 1540
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Dec 02 16:27:08 PST 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2560x1600
+Screen resolution (DPI): 200
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=24
+Scale size: 48
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Users/chand/Desktop/EE214/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Users/chand/Desktop/EE214/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	chand
+User home directory: C:/Users/chand
+User working directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Users/chand/Desktop/EE214/Vivado
+HDI_APPROOT: C:/Users/chand/Desktop/EE214/Vivado/2021.1
+RDI_DATADIR: C:/Users/chand/Desktop/EE214/Vivado/2021.1/data
+RDI_BINDIR: C:/Users/chand/Desktop/EE214/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/chand/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Users/chand/Desktop/EE214/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.log
+Vivado journal file: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.jou
+Engine tmp dir: 	C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/.Xil/Vivado-1540-DESKTOP-U5LPIJT
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/chand/Desktop/EE214/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Users/chand/Desktop/EE214/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Users/chand/Desktop/EE214/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Users/chand/Desktop/EE214/Vivado/2021.1
+XILINX_SDK: C:/Users/chand/Desktop/EE214/Vitis/2021.1
+XILINX_VITIS: C:/Users/chand/Desktop/EE214/Vitis/2021.1
+XILINX_VIVADO: C:/Users/chand/Desktop/EE214/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Users/chand/Desktop/EE214/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,287 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 116 MB (+119073kb) [00:00:06]
+// [Engine Memory]: 1,287 MB (+1198262kb) [00:00:06]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 137 MB (+15504kb) [00:00:12]
+// [GUI Memory]: 144 MB (+970kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  3546 ms.
+// Tcl Message: open_project C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 77 MB. Current time: 12/2/21, 4:27:08 PM PST
+// Project name: project_12.2; location: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2; part: xc7z007sclg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1281.793 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 349 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clkdiv"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'file mkdir C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F
+// Tcl Message: file mkdir C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 152 MB (+422kb) [00:06:25]
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false); // D
+// Elapsed time: 11 seconds
+selectCodeEditor("clkdiv.v", 67, 317); // bP
+selectCodeEditor("clkdiv.v", 67, 317, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 109, 89); // bP
+selectCodeEditor("clkdiv.v", 109, 89, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 109, 89); // bP
+selectCodeEditor("clkdiv.v", 71, 120); // bP
+selectCodeEditor("clkdiv.v", 71, 120, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clkdiv.v", 71, 77); // bP
+selectCodeEditor("clkdiv.v", 70, 55); // bP
+selectCodeEditor("clkdiv.v", 70, 55, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 70, 55); // bP
+selectCodeEditor("clkdiv.v", 42, 211); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clkdiv.v", 42, 211); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectCodeEditor("clkdiv.v", 157, 318); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 64 seconds
+selectCodeEditor("clkdiv.v", 331, 326); // bP
+selectCodeEditor("clkdiv.v", 269, 273); // bP
+selectCodeEditor("clkdiv.v", 269, 273, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 174, 154); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clkdiv.v", 476, 321); // bP
+// [GUI Memory]: 161 MB (+1424kb) [00:08:50]
+selectCodeEditor("clkdiv.v", 454, 359); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("clkdiv.v", 291, 376); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clkdiv.v", 339, 478); // bP
+selectCodeEditor("clkdiv.v", 331, 456); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clkdiv.v", 180, 230); // bP
+selectCodeEditor("clkdiv.v", 180, 230, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 180, 230); // bP
+selectCodeEditor("clkdiv.v", 180, 261); // bP
+selectCodeEditor("clkdiv.v", 180, 261, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 180, 261); // bP
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 234, 121, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 234, 121); // bP
+selectCodeEditor("clkdiv.v", 254, 143); // bP
+selectCodeEditor("clkdiv.v", 254, 143, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 254, 143); // bP
+selectCodeEditor("clkdiv.v", 249, 310); // bP
+selectCodeEditor("clkdiv.v", 249, 310, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 249, 310); // bP
+selectCodeEditor("clkdiv.v", 231, 337); // bP
+selectCodeEditor("clkdiv.v", 231, 337, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 231, 337); // bP
+selectCodeEditor("clkdiv.v", 231, 313); // bP
+selectCodeEditor("clkdiv.v", 231, 313, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 231, 313); // bP
+selectCodeEditor("clkdiv.v", 223, 337); // bP
+selectCodeEditor("clkdiv.v", 223, 337, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 223, 337); // bP
+selectCodeEditor("clkdiv.v", 223, 323); // bP
+selectCodeEditor("clkdiv.v", 223, 323, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("clkdiv.v", 223, 323); // bP
+selectCodeEditor("clkdiv.v", 215, 360); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "displ_clk"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, displ_clk (displ_clk.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, displ_clk (displ_clk.v)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, displ_clk (displ_clk.v)]", 2, false); // D
+selectCodeEditor("displ_clk.v", 138, 317); // bP
+selectCodeEditor("displ_clk.v", 138, 317, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("displ_clk.v", 346, 158); // bP
+selectCodeEditor("displ_clk.v", 346, 158, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("displ_clk.v", 346, 158); // bP
+selectCodeEditor("displ_clk.v", 346, 158, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("displ_clk.v", 346, 158); // bP
+selectCodeEditor("displ_clk.v", 218, 66); // bP
+selectCodeEditor("displ_clk.v", 218, 66, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("displ_clk.v", 193, 26); // bP
+selectCodeEditor("displ_clk.v", 193, 26, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("displ_clk.v", 193, 26); // bP
+selectCodeEditor("displ_clk.v", 145, 245); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("displ_clk.v", 145, 245); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("displ_clk.v", 259, 247); // bP
+selectCodeEditor("displ_clk.v", 259, 247, false, false, false, false, true); // bP - Double Click
+// k (cs): Text Changed: addNotify
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_NO, "No"); // a
+dismissDialog("Text Changed"); // k
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, displ_clk (displ_clk.v)]", 2, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v 
+// Tcl Message: file delete -force C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/displ_clk.v 
+dismissDialog("Remove Sources"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ctr_clk"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ctr_clk (ctr_clk.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ctr_clk (ctr_clk.v)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ctr_clk (ctr_clk.v)]", 2, false); // D
+selectCodeEditor("ctr_clk.v", 53, 308); // bP
+selectCodeEditor("ctr_clk.v", 53, 308, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("ctr_clk.v", 291, 152); // bP
+selectCodeEditor("ctr_clk.v", 291, 152, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("ctr_clk.v", 291, 152); // bP
+selectCodeEditor("ctr_clk.v", 255, 88); // bP
+selectCodeEditor("ctr_clk.v", 255, 88, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("ctr_clk.v", 255, 88); // bP
+selectCodeEditor("ctr_clk.v", 128, 143); // bP
+selectCodeEditor("ctr_clk.v", 128, 143, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("ctr_clk.v", 187, 44); // bP
+selectCodeEditor("ctr_clk.v", 171, 85); // bP
+selectCodeEditor("ctr_clk.v", 171, 85, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("ctr_clk.v", 171, 85); // bP
+selectCodeEditor("ctr_clk.v", 74, 260); // bP
+selectCodeEditor("ctr_clk.v", 74, 260); // bP
+selectCodeEditor("ctr_clk.v", 47, 298); // bP
+selectCodeEditor("ctr_clk.v", 60, 286); // bP
+selectCodeEditor("ctr_clk.v", 237, 260); // bP
+selectCodeEditor("ctr_clk.v", 229, 250); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 43 seconds
+selectCodeEditor("ctr_clk.v", 391, 154); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "4_1_"); // aa
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "muxBus_4_1"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clkdiv (clkdiv.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, muxBus_4_1 (muxBus_4_1.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, muxBus_4_1 (muxBus_4_1.v)]", 3, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, muxBus_4_1 (muxBus_4_1.v)]", 3, false); // D
+selectCodeEditor("muxBus_4_1.v", 99, 322); // bP
+selectCodeEditor("muxBus_4_1.v", 99, 322, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("muxBus_4_1.v", 218, 161); // bP
+selectCodeEditor("muxBus_4_1.v", 218, 161, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("muxBus_4_1.v", 218, 161); // bP
+selectCodeEditor("muxBus_4_1.v", 147, 92); // bP
+selectCodeEditor("muxBus_4_1.v", 147, 92, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("muxBus_4_1.v", 225, 44); // bP
+selectCodeEditor("muxBus_4_1.v", 193, 94); // bP
+selectCodeEditor("muxBus_4_1.v", 193, 94, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("muxBus_4_1.v", 193, 94); // bP
+selectCodeEditor("muxBus_4_1.v", 143, 239); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("muxBus_4_1.v", 143, 239); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 54 seconds
+selectCodeEditor("muxBus_4_1.v", 377, 427); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "segdecoder"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segdecoder (segdecoder.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segdecoder (segdecoder.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, segdecoder (segdecoder.v)]", 4, false); // D
+selectCodeEditor("segdecoder.v", 52, 305); // bP
+selectCodeEditor("segdecoder.v", 52, 305, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("segdecoder.v", 201, 152); // bP
+selectCodeEditor("segdecoder.v", 201, 152, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("segdecoder.v", 201, 152); // bP
+selectCodeEditor("segdecoder.v", 227, 92); // bP
+selectCodeEditor("segdecoder.v", 227, 92, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("segdecoder.v", 227, 92); // bP
+selectCodeEditor("segdecoder.v", 138, 141); // bP
+selectCodeEditor("segdecoder.v", 138, 141, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("segdecoder.v", 100, 97); // bP
+selectCodeEditor("segdecoder.v", 100, 97, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("segdecoder.v", 100, 97); // bP
+selectCodeEditor("segdecoder.v", 30, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("segdecoder.v", 57, 277); // bP
+selectCodeEditor("segdecoder.v", 95, 236); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("segdecoder.v", 246, 242); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("segdecoder.v", 242, 329); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("segdecoder.v", 242, 329); // bP
+selectCodeEditor("segdecoder.v", 221, 299); // bP
+selectCodeEditor("segdecoder.v", 204, 281); // bP
+typeControlKey((HResource) null, "segdecoder.v", 'v'); // bP
+selectCodeEditor("segdecoder.v", 111, 149); // bP
+selectCodeEditor("segdecoder.v", 142, 302); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "anodecoder"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/anodecoder.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/anodecoder.v 
+// I (cs): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, anodecoder (anodecoder.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, anodecoder (anodecoder.v)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, anodecoder (anodecoder.v)]", 2, false); // D
+selectCodeEditor("anodecoder.v", 116, 308); // bP
+selectCodeEditor("anodecoder.v", 116, 308, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("anodecoder.v", 99, 95); // bP
+selectCodeEditor("anodecoder.v", 99, 95, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("anodecoder.v", 99, 95); // bP
+selectCodeEditor("anodecoder.v", 75, 152); // bP
+selectCodeEditor("anodecoder.v", 75, 152, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("anodecoder.v", 92, 92); // bP
+selectCodeEditor("anodecoder.v", 92, 92, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("anodecoder.v", 92, 92); // bP
+selectCodeEditor("anodecoder.v", 76, 262); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("anodecoder.v", 76, 262); // bP
+selectCodeEditor("anodecoder.v", 282, 242); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("anodecoder.v", 358, 300); // bP
+selectCodeEditor("anodecoder.v", 358, 300, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("anodecoder.v", 355, 283); // bP
+selectCodeEditor("anodecoder.v", 355, 283, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("anodecoder.v", 317, 311); // bP
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 20 seconds
+selectCodeEditor("anodecoder.v", 126, 280); // bP
+typeControlKey((HResource) null, "anodecoder.v", 'v'); // bP
+selectCodeEditor("anodecoder.v", 109, 235); // bP
+selectCodeEditor("anodecoder.v", 105, 220); // bP
+selectCodeEditor("anodecoder.v", 194, 418); // bP
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("anodecoder.v", 103, 320); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("anodecoder.v", 366, 346); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  10799963 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 100 MB. Current time: 12/2/21, 7:51:13 PM PST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10800891 ms. Increasing delay to 32402673 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  38813748 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 91 MB. Current time: 12/3/21, 6:38:12 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 90 MB. Current time: 12/3/21, 7:08:13 AM PST
+// WARNING: HEventQueue.dispatchEvent() is taking  1000579 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 90 MB. Current time: 12/3/21, 7:41:09 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 89 MB. Current time: 12/3/21, 8:11:09 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 90 MB. Current time: 12/3/21, 8:41:09 AM PST
+// WARNING: HEventQueue.dispatchEvent() is taking  10799996 ms.

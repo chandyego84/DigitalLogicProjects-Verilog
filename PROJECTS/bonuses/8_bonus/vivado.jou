@@ -11,3 +11,55 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.xpr
+export_ip_user_files -of_objects  [get_files C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/chand/Desktop/EE214/PROJECTS/BlackboardRevD.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/BlackboardRevD.xdc
+file mkdir C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/bcdcounter.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/bcdcounter.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/busMux_4_1.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/busMux_4_1.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/clkdiv.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/clkdiv.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/counter_2bit.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/counter_2bit.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/decoder_2_4.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/decoder_2_4.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/load_decoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/load_decoder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/sevseg_decoder.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/sevseg_decoder.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/BCDctr_4.v w ]
+add_files C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.srcs/sources_1/new/BCDctr_4.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {C:/Users/chand/Desktop/EE214/PROJECTS/bonuses/8_bonus/8_bonus.runs/impl_1/BCDctr_4.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]

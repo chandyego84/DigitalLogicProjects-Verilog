@@ -2,10 +2,10 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Thu Dec  2 08:11:19 2021
-# Process ID: 3084
+# Start of session at: Thu Dec  2 16:26:50 2021
+# Process ID: 1540
 # Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7024 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7140 C:\Users\chand\Desktop\EE214\PROJECTS\juego_project12\project_12.2\project_12.2.xpr
 # Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/vivado.log
 # Journal file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2\vivado.jou
 #-----------------------------------------------------------
@@ -17,6 +17,4 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/chand/Desktop/EE214/Vivado/2021.1/data/ip'.
-open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:25 . Memory (MB): peak = 1257.816 ; gain = 0.000
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu Dec  2 10:02:56 2021...
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1281.793 ; gain = 0.000

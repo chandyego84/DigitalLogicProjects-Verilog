@@ -3,12 +3,13 @@
 Jun 10 2021
 20:04:57
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
-C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/clockdivTB.v,1640228528,verilog,,,,clockdivTB,,,,,,,,
+,,,,,,RTM_TB,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/clockdivTB.v,1640228528,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/RTM_TB.v,,clockdivTB,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/RTMtop.v,1640207948,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/clockdivTB.v,,RTMtop,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/anodecoder.v,1638492282,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v,,anodecoder,,,,,,,,
-C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v,1640229479,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v,,clkdiv,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/clkdiv.v,1640229544,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v,,clkdiv,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/ctr_clk.v,1638491987,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v,,ctr_clk,,,,,,,,
 C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/muxBus_4_1.v,1638492091,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v,,muxBus_4_1,,,,,,,,
-C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v,1640043962,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/sevsegcontroller.v,,segdecoder,,,,,,,,
-C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/sevsegcontroller.v,1640207730,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/stateMachine.v,,sevsegcontroller,,,,,,,,
-C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/stateMachine.v,1639440285,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/RTMtop.v,,stateMachine,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/segdecoder.v,1640258660,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/sevsegcontroller.v,,segdecoder,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/sevsegcontroller.v,1640257205,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/stateMachine.v,,sevsegcontroller,,,,,,,,
+C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/stateMachine.v,1640234692,verilog,,C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sources_1/new/RTMtop.v,,stateMachine,,,,,,,,

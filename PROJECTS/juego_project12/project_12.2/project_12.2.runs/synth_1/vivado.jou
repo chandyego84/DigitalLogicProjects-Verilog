@@ -2,8 +2,8 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Wed Dec 22 20:46:28 2021
-# Process ID: 13564
+# Start of session at: Thu Dec 23 21:53:49 2021
+# Process ID: 10920
 # Current directory: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.runs/synth_1
 # Command line: vivado.exe -log RTMtop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RTMtop.tcl
 # Log file: C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.runs/synth_1/RTMtop.vds

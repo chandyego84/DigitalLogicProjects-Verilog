@@ -17,3 +17,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJEC
 INFO: [VRFC 10-311] analyzing module RTMtop
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/clockdivTB.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module clockdivTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chand/Desktop/EE214/PROJECTS/juego_project12/project_12.2/project_12.2.srcs/sim_1/new/RTM_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RTM_TB

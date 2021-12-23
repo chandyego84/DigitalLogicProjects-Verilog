@@ -16,7 +16,7 @@ wire [3:0] wMuxout;
 
 ctr_clk ctr_clk(.displ_clk(clk), .ctrout(wCtrout));
 anodecoder anodecoder(.IN(wCtrout), .anods(seg_an));
-muxBus_4_1(.I0(wOnes), .I1(wTens), .I2(wHunnids), .I3(wThousands),
+muxBus_4_1 displayMux(.I0(wOnes), .I1(wTens), .I2(wHunnids), .I3(wThousands),
     .sel(wCtrout), .Y(wMuxout));
 segdecoder segdecoder(.IN(wMuxOut), .segs(seg_cat));
 

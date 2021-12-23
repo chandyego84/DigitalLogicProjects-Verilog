@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Wed Dec 22 20:48:20 2021
+| Date         : Thu Dec 23 21:55:56 2021
 | Host         : DESKTOP-U5LPIJT running 64-bit major release  (build 9200)
 | Command      : report_methodology -file RTMtop_methodology_drc_routed.rpt -pb RTMtop_methodology_drc_routed.pb -rpx RTMtop_methodology_drc_routed.rpx
 | Design       : RTMtop
@@ -23,13 +23,13 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 13
+             Violations found: 14
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 9          |
 | TIMING-18 | Warning          | Missing input or output delay | 3          |
-| TIMING-20 | Warning          | Non-clocked latch             | 1          |
+| TIMING-20 | Warning          | Non-clocked latch             | 2          |
 +-----------+------------------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -96,7 +96,12 @@ Related violations: <none>
 
 TIMING-20#1 Warning
 Non-clocked latch  
-The latch RTMsm/led_reg cannot be properly analyzed as its control pin RTMsm/led_reg/G is not reached by a timing clock
+The latch RTMsm/led_reg[0] cannot be properly analyzed as its control pin RTMsm/led_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch RTMsm/led_reg[1] cannot be properly analyzed as its control pin RTMsm/led_reg[1]/G is not reached by a timing clock
 Related violations: <none>
 
 

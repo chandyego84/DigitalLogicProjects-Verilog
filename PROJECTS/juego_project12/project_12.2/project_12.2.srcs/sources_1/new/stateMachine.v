@@ -6,7 +6,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module stateMachine(
     input start, react, clk, slowClk,
-    output reg led = 0,
+    output reg [1:0] led, // led[1] = in S0, led[0] = start reaction timer
     output reg [3:0] ones, tens, hunnids, thousands
 );
 
@@ -17,7 +17,7 @@ localparam S2 = 2'b10; // start counting
 
 // random counter to start reaction time display
 localparam rand = 3'b101; // 5 seconds
-reg randEnable; // start random counter
+//reg randEnable; // start random counter
 reg [3:0] counter; // start counting when counter == rand number
 reg [3:0] randcounter; // 
 
@@ -28,23 +28,33 @@ always @ (posedge(slowClk)) begin
 end
 
 // start reaction time counter
-always @ (posedge(clk)) begin
-    if (randEnable)
-        randcounter <= randcounter + 1;
-end
+//always @ (posedge(clk)) begin
+//    if (randEnable)
+//        randcounter <= randcounter + 1;
+//end
 
 // SM
 always @ (*) begin
     case (PS)
-    S0: begin
+    S0: 
+        begin
+        led[0] <= 0;
+        led[1] <= 1;
         if (!start) NS <= S0;
         else if (start) NS <= S1;
-        end
-    S1: if (counter != rand) NS <= S1;
+        end        
+    S1: 
+        begin
+        led[0] <= 0;
+        led[1] <= 0;
+        if (counter != rand) NS <= S1;
         else if (counter == rand) NS <= S2;
-    S2: begin 
-        randEnable <= 1; // start randcounter
-        led <= 1; // signifies reaction time timer ON
+        end
+    S2:  
+        begin
+        //randEnable <= 1; // start randcounter
+        led[0] <= 1; // signifies reaction time timer ON
+        led[1] <= 0;
         if (!react) NS <= S2;
         else if (react) NS <= S0;
         end
@@ -55,27 +65,27 @@ end
 
 always @ (posedge(clk)) begin
     PS <= NS;
-    if (PS == S0) ones <= 4'b0000;
+    if (PS == S0) ones <= 0;
     else if (PS == S2) ones <= ones + 1;
     else if (PS == S2 && ones == 4'b1001) ones <= 4'b0000; // 9 -> 0
 end
 
 always @(posedge(clk)) begin
-    if (PS == S0) tens <= 4'b0000;
+    if (PS == S0) tens <= 0;
     else if ((PS == S2) && ones == 4'b1001) tens <= tens + 1;
     else if (PS == S2 && tens == 4'b1001) tens <= 4'b0000; // 9 --> 0
 end
 
 always @ (posedge(clk)) begin
-    if (PS == S0) hunnids <= 4'b0000;
+    if (PS == S0) hunnids <= 0;
     else if ((PS == S2) && tens == 4'b1001) hunnids <= hunnids + 1;
-    else if (PS == S2 && hunnids == 4'b1001) hunnids = 4'b0000; // 9 --> 0
+    else if (PS == S2 && hunnids == 4'b1001) hunnids <= 4'b0000; // 9 --> 0
 end
 
 always @ (posedge(clk)) begin
-    if (PS == S0) thousands <= 4'b0000;
+    if (PS == S0) thousands <= 0;
     else if ((PS == S2) && hunnids == 4'b1001) thousands <= thousands + 1;
-    else if (PS == S2 && thousands == 4'b1001) thousands = 4'b0000; // 9 --> 0
+    else if (PS == S2 && thousands == 4'b1001) thousands <= 4'b0000; // 9 --> 0
 end
 
 
